@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="../css/master.css" />
+
+    <!-- Fontawesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- JQuery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Custom script -->
+    <script src="../script/App.js"></script>
+
+    <title>EatIt</title>
+  </head>
+  <body>
+    <section class="main forms">
+      <div class="home">
+        <i class="fa fa-bars"></i>
+        <a class="logo" href="home.html">EatIt</a>
+        <span>Account</span>
+        <i class="fa fa-power-off"></i>
+      </div>
+      <form>
+        <div class="account-image">
+          <img class="upload-img" src="../images/tylor.jpg" alt="profile" />
+
+          <div class="details">
+            Tylor Swift
+            <p><a href="#edit">Edit Photo</a></p>
+          </div>
+        </div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your name..." />
+
+        <label for="phone">Phone</label>
+        <input
+          type="number"
+          placeholder="123-45-678"
+          pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+        />
+        <label for="email">Email</label>
+        <input type="email" placeholder="Enter your email..." />
+
+        <a href="#update" class="btn-group">SAVE</a>
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="../css/master.css" />
+
+    <!-- Fontawesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- JQuery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Custom script -->
+    <script src="../script/App.js"></script>
+
+    <title>EatIt</title>
+  </head>
+  <body>
+    <section class="main forms">
+      <form>
+        <div class="back-btn signin-back-btn">
+          <i class="fa fa-chevron-left"><span>Back</span></i>
+        </div>
+        <div class="account-login signin-title">SIGN IN</div>
+
+        <label for="phone">Phone</label>
+        <input
+          type="number"
+          placeholder="123-45-678"
+          pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+        />
+        <label for="password">Password</label>
+        <input type="password" placeholder="Enter your password" />
+
+        <div class="account-login">
+          Forgot Password? <a href="forgotpassword.html">Reset</a>
+        </div>
+
+        <a href="home.html" class="btn-group">SIGN IN</a>
+        <div class="account-login">
+          OR
+        </div>
+        <a href="#twitter" class="btn-group twitter-btn"
+          >Sign in with Twitter</a
+        >
+        <a href="#facebook" class="btn-group facebook-btn"
+          >Sign in with Facebook</a
+        >
+
+        <div class="account-login">
+          New here? <a href="signup.html">Sign Up</a>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>

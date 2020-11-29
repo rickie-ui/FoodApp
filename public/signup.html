@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom css -->
+    <link rel="stylesheet" href="../css/master.css" />
+
+    <!-- Fontawesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- JQuery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Custom script -->
+    <script src="../script/App.js"></script>
+
+    <title>EatIt</title>
+  </head>
+  <body>
+    <section class="main forms">
+      <form>
+        <div class="back-btn">
+          <i class="fa fa-chevron-left"><span>Back</span></i>
+        </div>
+        <div class="signup-img">
+          <img class="upload-img" src="../images/tylor.jpg" alt="profile" />
+          <i class="fa fa-camera" id="sign-icon"></i>
+        </div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Enter your name..." />
+
+        <label for="phone">Phone</label>
+        <input
+          type="number"
+          placeholder="123-45-678"
+          pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+        />
+        <p>We will send your password via sms</p>
+
+        <input type="checkbox" name="terms" id="terms" />
+        <label for="terms"
+          >I agree with <a href="#terms">Terms & Conditions</a></label
+        >
+
+        <a href="password.html" class="btn-group">SIGN UP</a>
+
+        <div class="account-login">
+          I have an account <a href="signin.html">Sign In</a>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
