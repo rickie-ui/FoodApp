@@ -70,13 +70,14 @@ nav {
   position: absolute;
   top: 0;
   width: 80%;
-  right: 10%;
-  right: 10%;
   border-radius: 5px;
   margin: 20px 0;
   background: rgba(0, 0, 0, 0.4);
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
+}
+.onboard {
+  left: 10%;
 }
 nav ul {
   list-style-type: none;
