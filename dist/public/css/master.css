@@ -331,7 +331,8 @@ img {
 .minor {
   width: 100%;
   min-height: 100vh;
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-bottom: 60px;
   background-color: var(--color-5);
   color: var(--color-1);
   position: relative;
@@ -509,6 +510,9 @@ a.edit:hover {
   padding: 0;
   font-size: 14px;
 }
+.cart-2 {
+  margin-top: 50px;
+}
 .cart-2 .navigation,
 .last-orders .navigation {
   margin-top: -10px;
@@ -534,6 +538,9 @@ a.edit:hover {
 @media (min-width: 660px) {
   #search {
     width: 40%;
+  }
+  .minor {
+    margin-bottom: 0;
   }
   .btn {
     padding: 16px 60px;
